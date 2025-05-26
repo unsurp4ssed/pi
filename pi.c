@@ -22,6 +22,6 @@ int main(int argc, char *argv[]) {
 	printf("calcuating pi...\n");
 	pi = calcPI(n);
 	printf("...done.\n");
-	printf("PI is approx.:%llf\n", pi);
+	printf("PI is approx.:%f\n", pi);
 	return 0;
 }
