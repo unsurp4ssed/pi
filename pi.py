@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(1000001)
 
 
 def calcPI(n):
@@ -14,7 +14,7 @@ def main():
 		n = ''
 	help = ['h', '-h', '-help', '--help', '']
 	if (n in help) or (int(n)<=0): 
-		print('This program calculates PI in [n] iterations.\nn has to be no more than 1.000.000\nUsage: py pi.py [n]');
+		print('This program calculates PI in [n] iterations.\nn has to be not more than 1.000.000\nUsage: py pi.py [n]');
 		sys.exit(0);	
 
 	print('calcuating pi...');
