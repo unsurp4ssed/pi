@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-
 //increase stack and use split stacks for recursions deeper than couple hundred k
 //gcc -lm -Wl,-z,stack-size=4194304 -fsplit-stack pi.c -o pi.c.out -lm
 
