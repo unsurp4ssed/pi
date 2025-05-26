@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 
     double pi = 0;
     int n = atoi(argv[1]);
-    printf("%d", n);
+    
 	printf("calcuating pi...\n");
 	pi = calcPI(n);
 	printf("...done.\n");
